@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Locomalito - Galería</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="https://locomalito.com/favicon.ico">
+</head>
+<body>
+<header class="w3-top">
+  <nav class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+    <a href="juegos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JUEGOS</a>
+    <a href="media.html" class="w3-bar-item w3-button w3-padding-large">GALERÍA</a>
+    <a href="contacto.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>
+  </nav>
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="juegos.html" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()">JUEGOS</a>
+    <a href="contacto.html" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()">CONTACTO</a>
+  </div>
+</header>
+
+<main class="w3-content" style="max-width:800px;margin-top:80px">
+  <section class="w3-container w3-padding-32">
+    <h2>Imágenes y Datos</h2>
+    <img src="https://locomalito.com/images/screenshots/maldita_castilla_1.png" alt="Maldita Castilla" style="width:100%" class="w3-margin-bottom">
+    <table class="w3-table w3-bordered w3-striped w3-border">
+      <tr class="w3-black"><th>Juego</th><th>Género</th></tr>
+      <tr><td>Hydorah</td><td>Shmup</td></tr>
+      <tr><td>Maldita Castilla</td><td>Arcade</td></tr>
+    </table>
+  </section>
+</main>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) { x.className += " w3-show"; } 
+  else { x.className = x.className.replace(" w3-show", ""); }
+}
+</script>
+</body>
+</html>
