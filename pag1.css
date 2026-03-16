@@ -1,0 +1,133 @@
+/* pag1.css — CSS específico de index.html */
+
+/* Texto gris para párrafo de descripción */
+.w3-text-grey, .w3-hover-text-grey:hover,
+.w3-text-gray, .w3-hover-text-gray:hover { color: #757780 !important; }
+
+/* Texto azul para el icono de gamepad */
+.w3-text-red, .w3-hover-text-red:hover { color: #6CCFF6 !important; }
+
+/* --- Imagen cabecera hero (ajustada al ancho del contenido) --- */
+.hero-imagen {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.hero-imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* --- Sección de anécdotas --- */
+.stories-titulo {
+  margin-bottom: 24px;
+  color: #001011;
+  border-bottom: 3px solid #6CCFF6;
+  padding-bottom: 8px;
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 992px) { .stories-grid { grid-template-columns: 1fr; } }
+
+.story-card {
+  background-color: #FFFFFC;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+.story-card-year {
+  background-color: #6CCFF6;
+  color: #001011;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 14px 20px;
+  letter-spacing: 2px;
+}
+
+.story-card-body {
+  padding: 20px 20px 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.story-card-body h3 {
+  color: #001011;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 14px 0;
+}
+
+.story-card-body p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* --- Botones lado a lado --- */
+.botones-inicio {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+/* --- Artículo principal bajo la imagen --- */
+.articulo-principal {
+  margin-bottom: 48px;
+}
+
+.articulo-principal h2 {
+  color: #001011;
+  border-bottom: 3px solid #6CCFF6;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.articulo-principal ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  border-left: 4px solid #6CCFF6;
+  margin: 16px 0 16px 8px;
+  padding: 8px 16px;
+  background-color: #f4f4f4;
+  color: #333;
+  font-style: italic;
+}
+
+mark {
+  background-color: #6CCFF6;
+  color: #001011;
+  padding: 0 3px;
+  border-radius: 2px;
+}
+
+abbr { cursor: help; border-bottom: 1px dotted #757780; }
+
+cite { font-style: italic; color: #001011; font-weight: bold; }

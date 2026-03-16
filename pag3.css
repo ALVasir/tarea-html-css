@@ -1,0 +1,7 @@
+/* pag3.css — CSS específico de sobremi.html */
+
+.img-lateral { width: 100%; margin-bottom: 4px; border-radius: 4px; filter: grayscale(20%); }
+.img-lateral:hover { filter: grayscale(0%); transition: 0.3s; }
+figcaption { text-align: center; font-size: 13px; color: #757780; margin-top: 4px; }
+ul, ol { margin-bottom: 24px; line-height: 1.6; }
+h3 { color: #6CCFF6; text-transform: uppercase; letter-spacing: 1px; }

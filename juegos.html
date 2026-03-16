@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Locomalito - Juegos</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" type="image/png" href="/imagenes/favicon.png">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-/* Estilos específicos para la tabla integrados con el diseño */
-table { width: 100%; border-collapse: collapse; margin: 20px 0; background-color: white; }
-th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
-thead { background-color: #f44336; color: white; font-weight: bold; }
-tfoot { background-color: #f1f1f1; font-style: italic; }
-caption { padding: 15px; font-size: 1.5em; font-weight: bold; color: #f44336; }
-</style>
+  <title>Locomalito - Juegos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="pag2.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="/imagenes/favicon.png">
 </head>
 <body>
 
@@ -27,90 +18,356 @@ caption { padding: 15px; font-size: 1.5em; font-weight: bold; color: #f44336; }
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">INICIO</a>
     <a href="juegos.html" class="w3-bar-item w3-button w3-padding-large w3-white">JUEGOS</a>
-    <a href="media.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">GALERÍA</a>
+    <a href="sobremi.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">SOBRE MÍ</a>
     <a href="contacto.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CONTACTO</a>
   </div>
 
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
-    <a href="media.html" class="w3-bar-item w3-button w3-padding-large">GALERÍA</a>
+    <a href="sobremi.html" class="w3-bar-item w3-button w3-padding-large">SOBRE MÍ</a>
     <a href="contacto.html" class="w3-bar-item w3-button w3-padding-large">CONTACTO</a>
   </div>
 </div>
 
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+<header class="w3-container w3-red w3-center" style="padding:40px 16px">
   <h1 class="w3-margin w3-jumbo">CATÁLOGO</h1>
   <p class="w3-xlarge">Relación de obras y géneros</p>
 </header>
 
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
+
+    <h2 class="galeria-titulo">Galería de Juegos</h2>
+
+    <div class="galeria-grid">
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/8bit-killer" target="_blank">
+          <img src="imagenes/juegos/juego-01.png" alt="8Bit Killer">
+        </a>
+        <div class="game-card-footer">
+          <strong>8Bit Killer</strong>
+          <span>2008</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/hydorah" target="_blank">
+          <img src="imagenes/juegos/juego-02.png" alt="Hydorah">
+        </a>
+        <div class="game-card-footer">
+          <strong>Hydorah</strong>
+          <span>2010</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/abbaye-des-morts" target="_blank">
+          <img src="imagenes/juegos/juego-03.png" alt="L'Abbaye des Morts">
+        </a>
+        <div class="game-card-footer">
+          <strong>L'Abbaye des Morts</strong>
+          <span>2010</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/viriax" target="_blank">
+          <img src="imagenes/juegos/juego-04.png" alt="Viriax">
+        </a>
+        <div class="game-card-footer">
+          <strong>Viriax</strong>
+          <span>2011</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/maldita-castilla" target="_blank">
+          <img src="imagenes/juegos/juego-05.png" alt="Maldita Castilla">
+        </a>
+        <div class="game-card-footer">
+          <strong>Maldita Castilla</strong>
+          <span>2012</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/efmb" target="_blank">
+          <img src="imagenes/juegos/juego-06.png" alt="EFMB">
+        </a>
+        <div class="game-card-footer">
+          <strong>EFMB</strong>
+          <span>2012</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/death-came-from-verminest" target="_blank">
+          <img src="imagenes/juegos/juego-07.png" alt="Verminest">
+        </a>
+        <div class="game-card-footer">
+          <strong>Verminest</strong>
+          <span>2016</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/gaurodan" target="_blank">
+          <img src="imagenes/juegos/juego-08.png" alt="Gaurodan">
+        </a>
+        <div class="game-card-footer">
+          <strong>Gaurodan</strong>
+          <span>2013</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/verminian-trap" target="_blank">
+          <img src="imagenes/juegos/juego-09.png" alt="Verminian Trap">
+        </a>
+        <div class="game-card-footer">
+          <strong>Verminian Trap</strong>
+          <span>2013</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/the-curse-of-issyos" target="_blank">
+          <img src="imagenes/juegos/juego-10.png" alt="The Curse of Issyos">
+        </a>
+        <div class="game-card-footer">
+          <strong>The Curse of Issyos</strong>
+          <span>2015</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/maldita-castilla-ex" target="_blank">
+          <img src="imagenes/juegos/juego-11.png" alt="Maldita Castilla EX">
+        </a>
+        <div class="game-card-footer">
+          <strong>Maldita Castilla EX</strong>
+          <span>2016</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/super-hydorah" target="_blank">
+          <img src="imagenes/juegos/juego-12.png" alt="Super Hydorah">
+        </a>
+        <div class="game-card-footer">
+          <strong>Super Hydorah</strong>
+          <span>2017</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/darkula" target="_blank">
+          <img src="imagenes/juegos/juego-13.png" alt="Darkula">
+        </a>
+        <div class="game-card-footer">
+          <strong>Darkula</strong>
+          <span>2019</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/solar-gladiators" target="_blank">
+          <img src="imagenes/juegos/juego-14.png" alt="Solar Gladiators">
+        </a>
+        <div class="game-card-footer">
+          <strong>Solar Gladiators</strong>
+          <span>2020</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/mutants-from-the-deep" target="_blank">
+          <img src="imagenes/juegos/juego-15.png" alt="Mutants from the Deep">
+        </a>
+        <div class="game-card-footer">
+          <strong>Mutants from the Deep</strong>
+          <span>2021</span>
+        </div>
+      </div>
+
+      <div class="game-card w3-card">
+        <a href="https://locomalito.com/games/toxic-tomb" target="_blank">
+          <img src="imagenes/juegos/juego-16.png" alt="Toxic Tomb">
+        </a>
+        <div class="game-card-footer">
+          <strong>Toxic Tomb</strong>
+          <span>2024</span>
+        </div>
+      </div>
+
+    </div><!-- /galeria-grid -->
+
+    <h2 class="galeria-titulo">Catálogo Completo</h2>
+
     <div class="w3-container">
       <table class="w3-table-all w3-hoverable">
         <caption>Relación de Juegos y Géneros de Locomalito</caption>
         <thead>
             <tr>
-                <th>Juego / Género</th>
-                <th>Plataformas</th>
+                <th>Juego</th>
+                <th>Año</th>
                 <th>Acción</th>
                 <th>Shooter</th>
-                <th>Exploración</th>
+                <th>Plataformas</th>
                 <th>Arcade</th>
+                <th>Exploración</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>Maldita Castilla</th>
+                <th>8Bit Killer</th>
+                <td>2008</td>
                 <td>X</td>
                 <td>X</td>
                 <td></td>
                 <td></td>
-                <td>X</td>
+                <td></td>
             </tr>
             <tr>
                 <th>Hydorah</th>
-                <td>X</td>
+                <td>2010</td>
                 <td></td>
                 <td>X</td>
-                <td></td>
-                <td>X</td>
-            </tr>
-            <tr>
-                <th>The Abbey of Crime Extensum</th>
-                <td></td>
-                <td></td>
                 <td></td>
                 <td>X</td>
                 <td></td>
             </tr>
             <tr>
                 <th>L'Abbaye des Morts</th>
+                <td>2010</td>
+                <td></td>
+                <td></td>
                 <td>X</td>
-                <td></td>
-                <td></td>
                 <td>X</td>
                 <td>X</td>
             </tr>
             <tr>
-                <th>Verminian Trap</th>
+                <th>Viriax</th>
+                <td>2011</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Maldita Castilla</th>
+                <td>2012</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>EFMB</th>
+                <td>2012</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Verminest</th>
+                <td>2012</td>
                 <td></td>
                 <td>X</td>
                 <td></td>
-                <td></td>
                 <td>X</td>
+                <td></td>
             </tr>
             <tr>
                 <th>Gaurodan</th>
+                <td>2013</td>
                 <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Verminian Trap</th>
+                <td>2013</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>The Curse of Issyos</th>
+                <td>2015</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Maldita Castilla EX</th>
+                <td>2016</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Super Hydorah</th>
+                <td>2017</td>
                 <td></td>
                 <td>X</td>
                 <td></td>
                 <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Darkula</th>
+                <td>2019</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Solar Gladiators</th>
+                <td>2020</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Mutants from the Deep</th>
+                <td>2021</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Toxic Tomb</th>
+                <td>2024</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="6">Datos extraídos de la web oficial de Locomalito. Creando juegos con tiempo y cariño.</td>
+                <td colspan="7">Datos extraídos de la web oficial de Locomalito. Creando juegos con tiempo y cariño.</td>
             </tr>
         </tfoot>
       </table>
@@ -123,13 +380,13 @@ caption { padding: 15px; font-size: 1.5em; font-weight: bold; color: #f44336; }
 </div>
 
 <footer class="w3-container w3-padding-32 w3-center w3-opacity">  
-  <p class="w3-large" style="margin-bottom: 0px;">Sígueme en las redes:</p>
-  <div class="w3-xlarge w3-padding-16">
-    <a href="https://bsky.app/profile/locomalito.com" target="_blank" class="w3-hover-opacity" style="text-decoration:none">
-        <i class="fa fa-cloud"></i>
+  <p class="w3-large">Sígueme en las redes:</p>
+  <div class="w3-padding-16">
+    <a href="https://bsky.app/profile/locomalito.com" target="_blank">
+        <img src="imagenes/bluesky.png" alt="Bluesky" style="width:32px; margin:0 8px">
     </a>
-    <a href="https://www.youtube.com/locomalito" target="_blank" class="w3-hover-opacity" style="text-decoration:none">
-        <i class="fa fa-youtube-play"></i>
+    <a href="https://www.youtube.com/locomalito" target="_blank">
+        <img src="imagenes/youtube.png" alt="YouTube" style="width:32px; margin:0 8px">
     </a>
  </div>
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
