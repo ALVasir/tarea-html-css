@@ -23,3 +23,5 @@ fieldset { border: 1px solid #757780; margin: 20px 0; padding: 15px; border-radi
 legend { font-weight: bold; color: #6CCFF6; padding: 0 10px; }
 label { font-weight: bold; display: block; margin-top: 10px; color: #001011; }
 .form-container { background-color: #f4f4f4; padding: 24px; border-radius: 8px; }
+
+mark { background-color: #6CCFF6; color: #001011; padding: 0 3px; border-radius: 2px; }
