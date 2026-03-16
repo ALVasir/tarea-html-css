@@ -1,5 +1,12 @@
 /* pag1.css — CSS específico de index.html */
 
+/* Subtítulo del primer artículo (visualmente como h5) */
+.w3-twothird article h3.w3-padding-32 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+
 /* Texto gris para párrafo de descripción */
 .w3-text-grey, .w3-hover-text-grey:hover,
 .w3-text-gray, .w3-hover-text-gray:hover { color: #757780 !important; }
